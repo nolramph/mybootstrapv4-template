@@ -1,0 +1,47 @@
+// Mixins
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+//Overlay Mixins
+@mixin bg-overlay {
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:0;
+}
+
+
+@mixin content-z-index-overlay{
+  position:relative;
+  z-index:1;
+}
+
+// Font Mixins
+
+@mixin heading-font {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin verdana-custom{
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+@mixin default-font{
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+@mixin default-helvetica-font{
+  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+//Custom Font Weight
+@mixin font-weight-800{
+  font-weight: 800!important;
+}

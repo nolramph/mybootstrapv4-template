@@ -1,0 +1,36 @@
+{
+    "title": "TITLE",
+    "name": "project-name",
+    "version": "1.0.0",
+    "description": "DESCRIPTION",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "license": "MIT",
+    "author": "Marlon Peralta",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nolramph/mybootstrap-template.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "font-awesome": "4.7.0",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1",
+        "maplace-js": "^0.2.10"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-connect-php": "^1.0.3",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
+    }
+}
